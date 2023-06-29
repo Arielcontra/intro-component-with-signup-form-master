@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Intro component with sign up form</title>
+</head>
+<body>
+  <div class="father">
+    <div class="main">
+      <div class="lefthBox">
+        <div class="description">
+          <div class="qualification">
+            <h1>Learn to code by watching others</h1>
+          </div>
+          <div  class="paragraph">
+            <p>See how experienced developers solve problems in real-time. watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+          </div>
+        </div>
+      </div>
+      <div class="rightBox">
+        <div class="container">
+        <div class="offer">
+          <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+        </div>
+        <div class="dataBox">
+          <div class="wrapper">
+            <div class="input" >
+              <svg class="iconFirstName" id= "icon1" style="display: none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+              <input type="text" placeholder="First Name" value="" id="firstName">
+            </div>
+            <div class="warning" style="display: none" id="first-name">
+              <p>First Name cannot be empty</p>
+            </div>
+            <div class="input" >
+              <svg class="icon" id= "icon2" style="display: none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+              <input type="text" placeholder="Last Name" value="" id="lastName">
+            <div class="warning" style="display: none" id="last-name">
+              <p>Last Name cannot be empty</p>
+            </div>
+            <div class="input" >
+              <svg class="icon" id= "icon3" style="display: none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+              <input type="email" placeholder="Email Address" value="" id="emailAddress">
+            </div>
+            <div class="warning" style="display: none" id="email">
+              <p>Looks like this is not an email</p>
+            </div>
+            <div class="input" >
+              <svg class="icon" id= "icon4" style="display: none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+              <input type="password" placeholder="Password" value="" id="password">
+            </div>
+            <div class="warning" style="display: none" id="key">
+              <p>Password cannot be empty</p>
+            </div>
+            <div>
+              <button id="button">CLAIM YOUR FREE TRIAL</button>
+            </div>
+            <div class="terms">
+              <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ariel Contreras</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
